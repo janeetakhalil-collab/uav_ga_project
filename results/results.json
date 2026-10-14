@@ -1,0 +1,277 @@
+{
+ "main": {
+  "table": {
+   "GA": {
+    "fitness": [
+     0.312991193249463,
+     0.25259041612127686
+    ],
+    "coverage": [
+     0.6932914276671756,
+     0.6548384710632195
+    ],
+    "detection": [
+     0.8886351214872767,
+     0.745457621051745
+    ],
+    "energy_norm": [
+     0.6122321781632608,
+     0.5556718942208154
+    ],
+    "time_norm": [
+     0.41380367487401065,
+     0.3326880667442788
+    ],
+    "hazard_norm": [
+     0.12402928395984922,
+     0.3089857547082403
+    ],
+    "length": [
+     207.82873115599435,
+     202.96766321801843
+    ],
+    "feasible": [
+     true,
+     true
+    ]
+   },
+   "Random": {
+    "fitness": [
+     0.21488562479474113,
+     0.2411980193318347
+    ],
+    "coverage": [
+     0.6329097397099727,
+     0.7205906319013421
+    ],
+    "detection": [
+     0.6888029598526534,
+     0.7974192714810575
+    ],
+    "energy_norm": [
+     0.6436054431487757,
+     0.6684949829243653
+    ],
+    "time_norm": [
+     0.30232085085819665,
+     0.3149995476842985
+    ],
+    "hazard_norm": [
+     0.34707081672517776,
+     0.523928783312098
+    ],
+    "length": [
+     217.77085184950084,
+     215.59836097242794
+    ],
+    "feasible": [
+     true,
+     true
+    ]
+   }
+  },
+  "ga_pairwise_jaccard": [
+   0.4215967834577829
+  ],
+  "rs_pairwise_jaccard": [
+   0.5702280912364946
+  ],
+  "ga_gens_run": [
+   20,
+   20
+  ],
+  "ga_evals": [
+   562,
+   562
+  ],
+  "final_diversity": [
+   0.07362299770544387,
+   0.07464163577172638
+  ],
+  "init_diversity": [
+   0.2718371784439564,
+   0.28421381527755885
+  ],
+  "best_metrics": {
+   "coverage": 0.6932914276671756,
+   "detection": 0.8886351214872767,
+   "energy": 367.3393068979565,
+   "energy_norm": 0.6122321781632608,
+   "time": 103.45091871850266,
+   "time_norm": 0.41380367487401065,
+   "hazard": 12.402928395984922,
+   "hazard_norm": 0.12402928395984922,
+   "length": 207.82873115599435,
+   "nofly_len": 0.0,
+   "range_violation": 0.0,
+   "energy_violation": 0.0,
+   "violation": 0.0,
+   "feasible": true
+  }
+ },
+ "sensitivity": {
+  "pop_size": {
+   "20": {
+    "final_mean": 0.1985096872466205,
+    "final_std": 0.0,
+    "evals": 272,
+    "final_diversity": 0.10906992934762963,
+    "gen_to_95": 11.0
+   },
+   "40": {
+    "final_mean": 0.2530050177738592,
+    "final_std": 0.0,
+    "evals": 572,
+    "final_diversity": 0.09225013543124887,
+    "gen_to_95": 14.0
+   },
+   "80": {
+    "final_mean": 0.24917485485343377,
+    "final_std": 0.0,
+    "evals": 1172,
+    "final_diversity": 0.13854007794677897,
+    "gen_to_95": 12.0
+   }
+  },
+  "mutation_rate": {
+   "0.02": {
+    "final_mean": 0.2636615924242851,
+    "final_std": 0.0,
+    "evals": 422,
+    "final_diversity": 0.02616575165611799,
+    "gen_to_95": 11.0
+   },
+   "0.12": {
+    "final_mean": 0.2567351951549964,
+    "final_std": 0.0,
+    "evals": 422,
+    "final_diversity": 0.09234286292943603,
+    "gen_to_95": 11.0
+   },
+   "0.3": {
+    "final_mean": 0.02052975281908577,
+    "final_std": 0.0,
+    "evals": 422,
+    "final_diversity": 0.1580211293600394,
+    "gen_to_95": 10.0
+   }
+  },
+  "tournament_k": {
+   "2": {
+    "final_mean": 0.08951078608801964,
+    "final_std": 0.0,
+    "evals": 422,
+    "final_diversity": 0.13180963099437826,
+    "gen_to_95": 5.0
+   },
+   "4": {
+    "final_mean": 0.2567351951549964,
+    "final_std": 0.0,
+    "evals": 422,
+    "final_diversity": 0.09234286292943603,
+    "gen_to_95": 11.0
+   },
+   "8": {
+    "final_mean": 0.25564467470502267,
+    "final_std": 0.0,
+    "evals": 422,
+    "final_diversity": 0.09950384993366063,
+    "gen_to_95": 13.0
+   }
+  }
+ },
+ "profiles": {
+  "Balanced": {
+   "weights": {
+    "coverage": 0.35,
+    "detection": 0.25,
+    "energy": 0.15,
+    "time": 0.1,
+    "hazard": 0.15
+   },
+   "coverage": 0.6932914276671756,
+   "detection": 0.8886351214872767,
+   "energy": 367.3393068979565,
+   "energy_norm": 0.6122321781632608,
+   "time": 103.45091871850266,
+   "time_norm": 0.41380367487401065,
+   "hazard": 12.402928395984922,
+   "hazard_norm": 0.12402928395984922,
+   "length": 207.82873115599435,
+   "nofly_len": 0.0,
+   "range_violation": 0.0,
+   "energy_violation": 0.0,
+   "violation": 0.0,
+   "feasible": true
+  },
+  "Coverage-first": {
+   "weights": {
+    "coverage": 0.5,
+    "detection": 0.3,
+    "energy": 0.05,
+    "time": 0.05,
+    "hazard": 0.1
+   },
+   "coverage": 0.7821304411757664,
+   "detection": 0.8846750635302842,
+   "energy": 541.9929972601154,
+   "energy_norm": 0.9033216621001924,
+   "time": 108.77924931659551,
+   "time_norm": 0.43511699726638203,
+   "hazard": 48.36416028453584,
+   "hazard_norm": 0.4836416028453584,
+   "length": 278.7919048639126,
+   "nofly_len": 0.0,
+   "range_violation": 0.0,
+   "energy_violation": 0.0,
+   "violation": 0.0,
+   "feasible": true
+  },
+  "Energy-saver": {
+   "weights": {
+    "coverage": 0.25,
+    "detection": 0.15,
+    "energy": 0.35,
+    "time": 0.15,
+    "hazard": 0.1
+   },
+   "coverage": 0.40318724492926034,
+   "detection": 0.5335597422516634,
+   "energy": 216.07549028595372,
+   "energy_norm": 0.3601258171432562,
+   "time": 66.88444714302696,
+   "time_norm": 0.26753778857210786,
+   "hazard": 8.813014448125042,
+   "hazard_norm": 0.08813014448125042,
+   "length": 152.3222622151011,
+   "nofly_len": 0.0,
+   "range_violation": 0.0,
+   "energy_violation": 0.0,
+   "violation": 0.0,
+   "feasible": true
+  },
+  "Safety-first": {
+   "weights": {
+    "coverage": 0.25,
+    "detection": 0.15,
+    "energy": 0.1,
+    "time": 0.1,
+    "hazard": 0.4
+   },
+   "coverage": 0.6586851554194145,
+   "detection": 0.8463021539384298,
+   "energy": 315.2137116749591,
+   "energy_norm": 0.5253561861249318,
+   "time": 91.01242878896545,
+   "time_norm": 0.3640497151558618,
+   "hazard": 9.63908033778482,
+   "hazard_norm": 0.09639080337784821,
+   "length": 178.85255046670204,
+   "nofly_len": 0.0,
+   "range_violation": 0.0,
+   "energy_violation": 0.0,
+   "violation": 0.0,
+   "feasible": true
+  }
+ }
+}
